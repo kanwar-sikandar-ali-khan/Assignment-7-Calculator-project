@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Calualator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="ch1">CALCULATOR</h1>
+
+
+  
+
+    <div style="border: 8px  red; margin-top: 50px;" class="container">
+        <div style="border: 2px   black;" class="row">
+            <div style="border: 20px solid black; background-color: #4f4e4d;   width: 400px; border-radius: 20px;" class=" offset-sm-4 blackborder ">
+                
+                <h1>CASIO</h1>
+                <input onfocus="this.style.backgroundColor='#ff7700';" onblur="this.style.backgroundColor='white';" style="border: black 10px solid ; height: 80px;" type="text" id="number" >
+                
+
+                <table  class="table">
+
+                    <tr>
+                        <td onclick="clearHistory()" style="text-align: center;" colspan="2">
+                            CLEAR
+                        </td>
+                        <td onclick="del()">del</td>
+                        <td class="orange" onclick="getNumber('%')">%</td>
+                    </tr>
+                    <tr>
+                        <td onclick="getNumber('7')">7</td>
+                        <td onclick="getNumber('8')">8</td>
+                        <td onclick="getNumber('9')">9</td>
+                        <td  onclick="getNumber('/')" class="orange">÷</td>
+                    </tr>
+
+                    <tr>
+                        <td onclick="getNumber('4')"> 4</td>
+                        <td onclick="getNumber('5')">5</td>
+                        <td onclick="getNumber('6')">6</td>
+                        <td onclick="getNumber('*')"  class="orange">x</td>
+                    </tr>
+                    <tr>
+                        <td onclick="getNumber('1')">1</td>
+                        <td onclick="getNumber('2')">2</td>
+                        <td onclick="getNumber('3')">3</td>
+                        <td  onclick="getNumber('-')"class="orange">-</td>
+                    </tr>
+                    <tr>
+                        <td onclick="getNumber('0')">0</td>
+                        <td onclick="getNumber('.')">.</td>
+                        <td onclick="resultOfCalculation()">=</td>
+                        <td onclick="getNumber('+')" class="orange">+</td>
+                    </tr>
+                </table>
+
+
+            </div>
+        </div>
+
+    
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
+</html>

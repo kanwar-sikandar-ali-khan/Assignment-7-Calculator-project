@@ -1,0 +1,88 @@
+
+
+
+
+
+
+td{
+    border: 2px solid darkgreen;
+}
+
+input{
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.table{
+    border: 10px  gray;
+}
+
+tr{
+    border: 7px  lightcoral;
+}
+
+td{
+    border: 6px  blue;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 40px;
+    font-weight: bolder ;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    
+}
+
+.orange{
+    background-color: #ff7700   ;
+    
+}
+
+.blackborder{
+
+   
+
+    
+}
+
+body{
+    background-image: url(./img.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+
+.ch1{
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+
+/* @media screen and (max-width: 350px) {
+   
+.orange{
+    background-color: blue;
+}
+
+.blackborder{
+    width: 250px;
+}
+
+td{
+    width: 200px;
+}
+
+  } */
